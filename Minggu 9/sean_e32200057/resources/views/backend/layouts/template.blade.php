@@ -34,7 +34,7 @@
   <link href="{{ asset('backend/css/style-responsive.css')}}" rel="stylesheet" />
   <link href="{{ asset('backend/css/xcharts.min.css')}}" rel=" stylesheet">
   <link href="{{ asset('backend/css/jquery-ui-1.10.4.min.css')}}" rel="stylesheet">
-  @stuck('content-css')
+  @stack('content-css')
   <!-- =======================================================
     Theme Name: NiceAdmin
     Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
@@ -153,7 +153,7 @@
     <script src="{{ asset('backend/js/sparklines.js')}}"></script>
     <script src="{{ asset('backend/js/charts.js')}}"></script>
     <script src="{{ asset('backend/js/jquery.slimscroll.min.js')}}"></script>
-    @stuck('content-js')
+    @stack('content-js')
     <script>
       //knob
       $(function() {
